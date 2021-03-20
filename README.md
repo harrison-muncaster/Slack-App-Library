@@ -1,2 +1,2 @@
-# slack_modal
+# Slack APP Library
 Library for creating Modals for Slack Apps
