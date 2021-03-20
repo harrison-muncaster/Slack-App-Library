@@ -1,4 +1,5 @@
-
+# Author: Harrison Muncaster
+# Purpose: Library to be used to easily build Modal Views for Slack Applications
 
 def view(**kwargs: str) -> dict:
     """Return dict that represents the TYPE of view. ie. modal vs home view."""
