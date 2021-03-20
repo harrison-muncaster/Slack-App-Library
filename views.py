@@ -1,3 +1,5 @@
+# Template example to build Views for Slack Applications
+
 import modal
 
 
@@ -26,6 +28,3 @@ def second_view():
 
     schema = {**blocks_schema(blocks_list), **modal.submit('Submit'), **modal.close('Quit')}
     return schema
-
-
-print(first_view())
